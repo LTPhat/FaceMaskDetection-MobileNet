@@ -37,9 +37,9 @@
   $$D_K \times D_K \times M \times D_F \times D_F + M \times N \times D_F \times D_F $$
   
   $\Rightarrow$ **Reduce in computational cost:** $$\frac{D_K \times D_K \times M \times D_F \times D_F + M \times N \times D_F \times D_F}{D_K.D_K.M.N.D_F.D_F}= \frac{1}{N}+\frac{1}{D^2_K}$$
-  ### Architecture
+## Architecture
   
-  ![alt text](https://github.com/LTPhat/FaceMaskDetection-MobileNet-/blob/main/mobile_net.png)
+![alt text](https://github.com/LTPhat/FaceMaskDetection-MobileNet-/blob/main/mobile_net.png)
   
 ## Mobilenet in Keras
 - Syntax and parameters:
