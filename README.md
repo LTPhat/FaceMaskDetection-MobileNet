@@ -92,7 +92,7 @@ Saving kaggle.json to kaggle.json
 ```sh
 ! chmod 600 ~/.kaggle/kaggle.json
 ```
-- Download dataset from kaggle FER2013
+- Download dataset from kaggle face-mask-detection
 ```sh
 !kaggle datasets download -d vijaykumar1799/face-mask-detection
 ```
