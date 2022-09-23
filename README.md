@@ -2,7 +2,7 @@
 - A Deep Learning project in Computer Vision to detect facemask on images using Keras, OpenCV and Streamlit.
 - Finished time: 23/09/2022.
 ## About the dataset
-- The dataset contains 3 folders labeled as to which class they belong to. the 3 classes are "withmask", "withoumask", and "mask_weared_incorrect". Each folder holds 2994 images of people that belong to such a labeled class.
+- The dataset contains 3 folders labeled as to which class they belong to. The 3 classes are "withmask", "withoumask", and "mask_weared_incorrect". Each folder holds 2994 images of people that belong to such a labeled class.
 - Dataset link: https://www.kaggle.com/datasets/vijaykumar1799/face-mask-detection
 ## About MobileNet
 - MobileNet is a simple but efficient and not very computationally intensive convolutional neural networks for mobile vision applications. MobileNet is widely used in many real-world applications which includes object detection, fine-grained classifications, face attributes, and localization.
