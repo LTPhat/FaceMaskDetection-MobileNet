@@ -138,6 +138,12 @@ Some results after uploading images:
 
 ![alt text](https://github.com/LTPhat/FaceMaskDetection-MobileNet-/blob/main/web_img/result6.png)
 
+![alt text](https://github.com/LTPhat/FaceMaskDetection-MobileNet-/blob/main/web_img/result4.png)
+
+![alt text](https://github.com/LTPhat/FaceMaskDetection-MobileNet-/blob/main/web_img/result5.png)
+
+![alt text](https://github.com/LTPhat/FaceMaskDetection-MobileNet-/blob/main/web_img/result7.png)
+
 ![alt text](https://github.com/LTPhat/FaceMaskDetection-MobileNet-/blob/main/web_img/result10.png)
 
 ## References
