@@ -12,7 +12,7 @@ from keras.utils import img_to_array
 
 
 face_classifier = cv2.CascadeClassifier(r"C:\Users\HP\anaconda3\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml")
-classifier =keras.models.load_model('E:\FaceMaskDetection\Face_mask.h5')
+classifier =keras.models.load_model('D:\FaceMaskDetection-MobileNet-\Face_mask.h5')
 
 classes = ['mask_weared_incorrect','with_mask','without_mask']
 
