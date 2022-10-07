@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 import os
 import cv2
 from keras.utils import img_to_array, load_img
-classifier =keras.models.load_model('E:\FaceMaskDetection\Face_mask.h5')
+classifier =keras.models.load_model('D:\FaceMaskDetection-MobileNet-\Face_mask.h5')
 classes = ['mask_weared_incorrect','with_mask','without_mask']
 face_classifier = cv2.CascadeClassifier(r"C:\Users\HP\anaconda3\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml")
 # Read file
@@ -31,7 +31,7 @@ def set_background(png_file):
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
-set_background('E:\FaceMaskDetection\Back4.png')
+set_background('D:\FaceMaskDetection-MobileNet-\web_background.png')
 def predict_img(img):
     # cvt_img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
     # Detect face
