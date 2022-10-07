@@ -10,11 +10,7 @@ warnings.filterwarnings('ignore')
 import os
 import cv2
 from keras.utils import img_to_array, load_img
-<<<<<<< HEAD
 classifier =keras.models.load_model('D:\FaceMaskDetection-MobileNet-\Face_mask.h5')
-=======
-classifier =keras.models.load_model("D:\FaceMaskDetection-MobileNet-\Face_mask.h5")
->>>>>>> 3e82472239d603e6b9d6d986f769e6e4f8fb2d57
 classes = ['mask_weared_incorrect','with_mask','without_mask']
 face_classifier = cv2.CascadeClassifier(r"C:\Users\HP\anaconda3\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml")
 # Read file
@@ -35,11 +31,7 @@ def set_background(png_file):
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
-<<<<<<< HEAD
 set_background('D:\FaceMaskDetection-MobileNet-\web_background.png')
-=======
-set_background('D:\FaceMaskDetection-MobileNet-\Back1.jpg')
->>>>>>> 3e82472239d603e6b9d6d986f769e6e4f8fb2d57
 def predict_img(img):
     # Detect face
     global label
